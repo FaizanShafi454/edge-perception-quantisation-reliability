@@ -1,0 +1,33 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+DATA_DIR = PROJECT_ROOT / "data"
+RAW_DATA_DIR = DATA_DIR / "raw"
+PROCESSED_DATA_DIR = DATA_DIR / "processed"
+
+MODELS_DIR = PROJECT_ROOT / "models"
+FP32_DIR = MODELS_DIR / "fp32"
+FP16_DIR = MODELS_DIR / "fp16"
+INT8_DIR = MODELS_DIR / "int8_openvino"
+
+RESULTS_DIR = PROJECT_ROOT / "results"
+TABLES_DIR = RESULTS_DIR / "tables"
+FIGURES_DIR = RESULTS_DIR / "figures"
+LOGS_DIR = RESULTS_DIR / "logs"
+
+NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
+
+YOLO_WEIGHTS = "yolov8n.pt"
+COCO128_YAML = DATA_DIR / "coco128.yaml"
+
+VIDEO_PATH = RAW_DATA_DIR / "input_video.mp4"
+OUTPUT_VIDEO_PATH = RESULTS_DIR / "annotated_output.mp4"
+
+IMAGE_SIZE = 640
+CONF_THRESHOLD = 0.25
+IOU_THRESHOLD = 0.45
+SEED = 42
+
+TARGET_COVERAGE = 0.90
+ALPHA = 1 - TARGET_COVERAGE
