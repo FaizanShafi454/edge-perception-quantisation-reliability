@@ -1,0 +1,4 @@
+Precision,Calib_Detections,Mean_Confidence,Mean_Nonconformity,Std_Nonconformity,q_hat
+FP32,345,0.6323,0.3677,0.212,0.6771
+FP16,343,0.6351,0.3649,0.2086,0.6628
+INT8,347,0.6399,0.3601,0.2128,0.667

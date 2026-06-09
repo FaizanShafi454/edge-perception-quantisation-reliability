@@ -1,0 +1,4 @@
+Comparison,U_stat,p_value,effect_size_r
+FP32 vs FP16,59614.0,0.864142,-0.0075
+FP32 vs INT8,61231.0,0.601545,-0.0229
+FP16 vs INT8,60465.0,0.715553,-0.016

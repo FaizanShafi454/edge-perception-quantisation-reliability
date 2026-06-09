@@ -1,0 +1,4 @@
+Precision,Test_Detections,q_hat,Coverage_Rate,Target_Met,Mean_Nonconformity
+FP32,695,0.6771,0.9165,True,0.3414
+FP16,700,0.6628,0.8929,False,0.341
+INT8,703,0.667,0.8976,False,0.3353
