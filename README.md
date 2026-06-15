@@ -29,3 +29,8 @@ Intel Core i5 CPU laptop, Windows 11, no GPU acceleration
 
 ## Framework
 Intel OpenVINO toolkit for FP16 and INT8 model export and inference
+
+## Research Papers
+
+- **Phase 1 — Confidence Calibration:** [`paper/Seroo_Skaltsas_Phase1_Calibration_2026.pdf`](paper/Seroo_Skaltsas_Phase1_Calibration_2026.pdf)
+- **Phase 2 — Conformal Coverage:** Available on the [`conformal-yolov8n`](https://github.com/FaizanShafi454/edge-perception-quantisation-reliability/tree/conformal-yolov8n) branch
